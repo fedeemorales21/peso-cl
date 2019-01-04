@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Consumir API Pública</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container my-3">
+        <input type="button" value="Dolar" class="btn btn-success my-3 mx-2" id="dolar">
+        <input type="button" value="Euro" class="btn btn-danger my-3 mx-2" id="euro">
+        <input type="button" value="Bitcoin" class="btn btn-primary my-3 mx-2" id="bitcoin">
+    
+    <h2 id="moneda"></h2>   
+    <table class="table text-center">
+        <thead>
+          <tr>
+            <th scope="col">Fecha</th>
+            <th scope="col">Valor</th>
+            
+          </tr>
+        </thead>
+        <tbody id="res">
+        </tbody>
+    </table>
+    </div>    
+    <script src="app.js"></script>
+</body>
+</html>
